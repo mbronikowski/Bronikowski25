@@ -7,9 +7,9 @@ The paper is available on (link), (website). DOI: (doi)
 
 ## Data structure
 
-The volumetric results are in the "volumetric" directory, further subdivided by survey, while the arc-specific results are in the "arc-specific" directory. Additional volumetric method results are available in "extra_volumetric" for clusters which fall outside the viewing fields of the surveys, to offer a point of comparison of possible future surveys.
+The volumetric results are in the "volumetric_results" directory, further subdivided by survey, while the arc-specific results are in the "arc-specific_results" directory. Additional volumetric method results are available for clusters which fall outside the viewing fields of the surveys, to offer a point of comparison of possible future surveys. **PLEASE CONSULT THE PAPER TO CHECK WHICH CLUSTERS ARE OBSERVABLE TO EITHER SURVEY.**
 
-Files with volumetric results for LSST contain the following columns:
+Files with volumetric results for Rubin's LSST contain the following columns:
 
 - z - redshift bin z, from z-0.05 to z+0.05, in which the results are calculated
 
@@ -23,5 +23,5 @@ We provide results for the following subtypes: II (Type IIP and IIL, combined); 
 
 We do not provide in the data files an estimate of the integral's uncertainty, as we assume a flat 30% uncertainty.
 
-Files with volumetric results for NGRST are structured similarily, however, they contain separate columns with "wide" and "deep" in column names, indicating the survey tier for which calculations were made.
-For NGRST, we provide results for the following subtypes: IIP; IIL; IIb; IIn; Ia; Ib; Ic; IcBL.
+Files with volumetric results for Roman's HLTDS are structured similarily, however, they contain separate columns with "wide" and "deep" in column names, indicating the survey tier for which calculations were made.
+For Roman, we provide results for the following subtypes: IIP; IIL; IIb; IIn; Ia; Ib; Ic; IcBL.
