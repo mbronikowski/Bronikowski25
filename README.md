@@ -3,7 +3,7 @@ Raw results and misc. data for the Bronikowski et al. (2025) paper.
 
 ## Paper information
 
-The paper is available on (link), (website). DOI: (doi)
+The paper is currently available on [arXiv](https://arxiv.org/abs/2504.01068).
 
 ## Data structure
 
